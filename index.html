@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="樂樂的回憶紀念網站。記錄我們一起度過的溫暖時光。">
+    <title>樂樂的回憶 | Forever in our hearts</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Nunito:wght@400;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Favicon (Optional) -->
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐾</text></svg>">
+</head>
+
+<body>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero-content">
+                <h1 id="hero-title" class="hero-name">樂樂</h1>
+                <p class="hero-dates">20xx - 20xx</p>
+                <div class="hero-image-wrapper">
+                    <img id="hero-img" src="assets/img/hero.jpg" alt="樂樂 happiness photo" class="hero-img"
+                        loading="eager">
+                </div>
+                <p class="hero-intro">謝謝你來看看樂樂。<br>這裡記錄了這位小天使帶給我們的溫暖與美好。</p>
+            </div>
+        </section>
+
+        <!-- Timeline Section -->
+        <section class="timeline-section" aria-labelledby="timeline-title">
+            <div class="container">
+                <h2 id="timeline-title" class="section-title">生命旅程</h2>
+                <ol id="timeline-container" class="timeline">
+                    <!-- Javascript will render items here -->
+                </ol>
+            </div>
+        </section>
+
+        <!-- Memory Wall -->
+        <section class="memories-section" aria-labelledby="memories-title">
+            <div class="container">
+                <h2 id="memories-title" class="section-title">珍貴回憶</h2>
+
+                <!-- Filter Tags -->
+                <div id="filter-container" class="filter-tags" role="group" aria-label="Filter memories">
+                    <button class="filter-btn active" data-filter="all" aria-pressed="true">全部</button>
+                    <!-- JS will generate other buttons -->
+                </div>
+
+                <ul id="memory-grid" class="memory-grid">
+                    <!-- Javascript will render items here -->
+                </ul>
+            </div>
+        </section>
+
+        <!-- Private Corner removed as per user request -->
+    </main>
+
+    <footer class="site-footer">
+        <p>Always in our hearts.</p>
+    </footer>
+
+    <!-- Floating Heart Button -->
+    <button id="heart-btn" class="heart-floater" aria-label="為樂樂點亮愛心">
+        ❤️
+    </button>
+    <div id="hearts-container" class="hearts-container" aria-hidden="true"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
