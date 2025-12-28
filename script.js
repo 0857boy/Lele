@@ -5,54 +5,57 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Timeline Events
     // Suggestion: Use 4:3 or 1:1 images.
+    // Timeline Events
+    // Suggestion: Use 4:3 or 1:1 images.
     const timelineEvents = [
         {
-            date: "2010 春天",
-            title: "(請替換) 初次見面",
-            desc: "這天我們相遇了，那是個陽光燦爛的日子。",
-            img: "assets/img/timeline-1.jpg"
+            date: "2010 初遇",
+            title: "緣分開始",
+            desc: "還記得你小時候乖乖喝水的樣子，剛來到家裡還有點害羞。",
+            img: "assets/img/gallery-01.jpg"
         },
         {
-            date: "2012 夏天",
-            title: "(請替換) 第一次去海邊",
-            desc: "你怕水，但又很愛追浪花。",
-            img: "assets/img/timeline-2.jpg"
+            date: "2015 旅行",
+            title: "桐花步道",
+            desc: "帶著你一起去賞油桐花，白色的花瓣落在石頭路上，你走得好開心。",
+            img: "assets/img/gallery-06.jpg"
         },
         {
-            date: "2020 秋天",
-            title: "(請替換) 十歲生日",
-            desc: "雖然鬍鬚白了，你的眼神依然像是個孩子。",
-            img: "assets/img/timeline-3.jpg"
+            date: "2020 相伴",
+            title: "最暖的笑容",
+            desc: "不管過了多久，你燦爛的笑容總能融化我們的心。",
+            img: "assets/img/gallery-15.jpg"
+        },
+        {
+            date: "2025 畢業",
+            title: "天使快樂",
+            desc: "謝謝你用超過15年的時間陪伴我們，現在你是最快樂的小天使了。",
+            img: "assets/img/timeline-2025.jpg"
         }
     ];
 
     // Memories
     // Suggestion: Use square 1:1 images.
     const memories = [
-        {
-            title: "(請替換) 睡午覺",
-            tags: ["睡覺", "日常"],
-            desc: "這個姿勢只有你能睡得著。",
-            img: "assets/img/memory-1.jpg"
-        },
-        {
-            title: "(請替換) 公園奔跑",
-            tags: ["日常", "快樂"],
-            desc: "風吹過你的耳朵，飛起來了。",
-            img: "assets/img/memory-2.jpg"
-        },
-        {
-            title: "(請替換) 討零食",
-            tags: ["撒嬌", "搞笑"],
-            desc: "這個眼神，誰能拒絕？",
-            img: "assets/img/memory-3.jpg"
-        },
-        {
-            title: "(請替換) 全家福",
-            tags: ["旅行", "重要時刻"],
-            desc: "我們永遠在一起。",
-            img: "assets/img/memory-4.jpg"
-        }
+        { title: "草地時光", tags: ["日常", "快樂"], desc: "在綠草地上捲成一團，享受大自然的氣息。", img: "assets/img/gallery-04.jpg" },
+        { title: "花徑漫步", tags: ["旅行", "日常"], desc: "走在滿是落花的古道上，一步一步慢慢走。", img: "assets/img/gallery-05.jpg" },
+        { title: "伸大懶腰", tags: ["搞笑", "日常"], desc: "這是什麼瑜珈姿勢？後腿拉得直直的，太軟Q了吧！", img: "assets/img/gallery-07.jpg" },
+        { title: "曬曬太陽", tags: ["搞笑", "日常"], desc: "陽光這麼好，當然要盡情伸展筋骨。", img: "assets/img/gallery-08.jpg" },
+        { title: "叢林探險", tags: ["旅行", "快樂"], desc: "鑽進草叢裡，像個小探險家一樣。", img: "assets/img/gallery-09.jpg" },
+        { title: "快樂翻滾", tags: ["快樂", "搞笑"], desc: "背癢癢嗎？在草地上扭來扭去好開心。", img: "assets/img/gallery-10.jpg" },
+        { title: "森林漫遊", tags: ["旅行"], desc: "看著你小小的背影走在樹林間，感覺好療癒。", img: "assets/img/gallery-11.jpg" },
+        { title: "大樹與你", tags: ["旅行"], desc: "在巨大的樹幹旁，你顯得更迷你了。", img: "assets/img/gallery-12.jpg" },
+        { title: "爬山健行", tags: ["旅行", "快樂"], desc: "雖然腿短短，但爬坡可是難不倒你。", img: "assets/img/gallery-13.jpg" },
+        { title: "森林合影", tags: ["旅行"], desc: "停下來回頭看我，是在確認我有沒有跟上嗎？", img: "assets/img/gallery-14.jpg" },
+        { title: "準備兜風", tags: ["旅行", "搞笑"], desc: "熟練地跳上機車踏板，「出發了嗎？」", img: "assets/img/gallery-16.jpg" },
+        { title: "優雅休息", tags: ["睡覺", "日常"], desc: "趴在紅地毯上曬太陽，看起來好愜意。", img: "assets/img/gallery-17.jpg" },
+        { title: "鄉間小路", tags: ["旅行"], desc: "走在寬闊的馬路上，路邊的風景真美。", img: "assets/img/gallery-18.jpg" },
+        { title: "挑戰階梯", tags: ["旅行"], desc: "望著長長的石階梯，準備一鼓作氣衝上去！", img: "assets/img/gallery-19.jpg" },
+        { title: "等到睡著", tags: ["搞笑", "睡覺"], desc: "「還沒要出發喔？」下巴饋在機車邊緣等到愛睏。", img: "assets/img/gallery-20.jpg" },
+        { title: "聞聞花草", tags: ["日常"], desc: "路邊的小花小草都有好多訊息。", img: "assets/img/gallery-21.jpg" },
+        { title: "探索世界", tags: ["日常"], desc: "每一個角落都不放過，認真聞聞聞。", img: "assets/img/gallery-22.jpg" },
+        { title: "喝水時間", tags: ["日常"], desc: "乖乖補充水分。", img: "assets/img/gallery-02.jpg" },
+        { title: "路邊散步", tags: ["日常"], desc: "簡單的散步就是最棒的時光。", img: "assets/img/gallery-03.jpg" }
     ];
 
     // --- Render Functions ---
