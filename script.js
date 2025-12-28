@@ -55,7 +55,8 @@ document.addEventListener('DOMContentLoaded', () => {
         { title: "聞聞花草", tags: ["日常"], desc: "路邊的小花小草都有好多訊息。", img: "assets/img/gallery-21.jpg" },
         { title: "探索世界", tags: ["日常"], desc: "每一個角落都不放過，認真聞聞聞。", img: "assets/img/gallery-22.jpg" },
         { title: "喝水時間", tags: ["日常"], desc: "乖乖補充水分。", img: "assets/img/gallery-02.jpg" },
-        { title: "路邊散步", tags: ["日常"], desc: "簡單的散步就是最棒的時光。", img: "assets/img/gallery-03.jpg" }
+        { title: "路邊散步", tags: ["日常"], desc: "簡單的散步就是最棒的時光。", img: "assets/img/gallery-03.jpg" },
+        { title: "帥氣新衣", tags: ["搞笑", "日常"], desc: "穿上這件黃色衣服，我是不是看起來特別帥氣？", img: "assets/img/gallery-23.jpg" }
     ];
 
     // --- Render Functions ---
